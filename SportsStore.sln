@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3A8146B6-C2DF-4A4B-979E-3DD1C561FBC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A1DD60A0-F4D8-44C8-83F9-4A6797464DAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{E27CE709-BC82-4E6F-BBFB-C5ACB8BD0C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Core", "SportsStore.Core\SportsStore.Core.csproj", "{E522DC64-BF68-4746-AF63-BBEC8509F704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Infrastructure", "SportsStore.Infrastructure\SportsStore.Infrastructure.csproj", "{867D8A88-D96F-4DB3-997A-DB00A91DBDC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Mvc4", "SportsStore.Mvc4\SportsStore.Mvc4.csproj", "{08A6F80C-6D2D-427A-840C-ABC93190D764}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1EFCC57A-015F-4771-974C-60BF72A645A5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.Base", "SportsStore.Base\SportsStore.Base.csproj", "{0386140B-1E06-4119-A98A-6E4B27EF6BAB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://win-9rjggdprki1:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SportsStore.Core\\SportsStore.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = SportsStore.sln
+		SccProjectName1 = SportsStore.Core
+		SccLocalPath1 = SportsStore.Core
+		SccProjectUniqueName2 = SportsStore.Infrastructure\\SportsStore.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName2 = SportsStore.sln
+		SccProjectName2 = SportsStore.Infrastructure
+		SccLocalPath2 = SportsStore.Infrastructure
+		SccProjectUniqueName3 = SportsStore.Mvc4\\SportsStore.Mvc4.csproj
+		SccProjectTopLevelParentUniqueName3 = SportsStore.sln
+		SccProjectName3 = SportsStore.Mvc4
+		SccLocalPath3 = SportsStore.Mvc4
+		SccProjectUniqueName4 = SportsStore.Base\\SportsStore.Base.csproj
+		SccProjectName4 = SportsStore.Base
+		SccLocalPath4 = SportsStore.Base
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E522DC64-BF68-4746-AF63-BBEC8509F704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E522DC64-BF68-4746-AF63-BBEC8509F704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E522DC64-BF68-4746-AF63-BBEC8509F704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E522DC64-BF68-4746-AF63-BBEC8509F704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867D8A88-D96F-4DB3-997A-DB00A91DBDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867D8A88-D96F-4DB3-997A-DB00A91DBDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867D8A88-D96F-4DB3-997A-DB00A91DBDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867D8A88-D96F-4DB3-997A-DB00A91DBDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A6F80C-6D2D-427A-840C-ABC93190D764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A6F80C-6D2D-427A-840C-ABC93190D764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A6F80C-6D2D-427A-840C-ABC93190D764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A6F80C-6D2D-427A-840C-ABC93190D764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0386140B-1E06-4119-A98A-6E4B27EF6BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0386140B-1E06-4119-A98A-6E4B27EF6BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0386140B-1E06-4119-A98A-6E4B27EF6BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0386140B-1E06-4119-A98A-6E4B27EF6BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E522DC64-BF68-4746-AF63-BBEC8509F704} = {3A8146B6-C2DF-4A4B-979E-3DD1C561FBC6}
+		{867D8A88-D96F-4DB3-997A-DB00A91DBDC4} = {A1DD60A0-F4D8-44C8-83F9-4A6797464DAB}
+		{08A6F80C-6D2D-427A-840C-ABC93190D764} = {E27CE709-BC82-4E6F-BBFB-C5ACB8BD0C26}
+	EndGlobalSection
+EndGlobal
